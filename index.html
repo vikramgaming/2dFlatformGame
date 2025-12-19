@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=<device-width></device-width>, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="style.css" />
+		<title>2d-Game</title>
+	</head>
+	<body>
+		<button id="fullScreen">FullScreen</button>
+		<div id="menu">
+			<input
+				type="text"
+				placeholder="Player Name"
+				minlength="3"
+				maxlength="10"
+				required />
+			<button onclick="start()">Play</button>
+		</div>
+		<canvas id="canvas"></canvas>
+
+		<script src="main.js" type="module"></script>
+	</body>
+</html>
